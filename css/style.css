@@ -17,6 +17,21 @@
   background-image: url("../images/anjaan3.jpg");
   min-height: 400px;
 }
+
+@media screen and (min-width: 750px){
+  .anjaan{
+    display: none;
+  }
+}
+@media screen and (max-width: 750px){
+  .anjaan{
+    display: block;
+  }
+  .hero-wrap{
+    display: none;
+  }
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
